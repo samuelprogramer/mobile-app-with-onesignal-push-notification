@@ -1,0 +1,14 @@
+{
+  "name": "com.mistarts.push",
+  "version": "1.0.0",
+  "description": "backend é responsável por enviar notificações para dispositivos móveis, enquanto o frontend é a aplicação móvel que recebe e lida com as notificações",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Lisboa",
+  "license": "ISC",
+  "dependencies": {
+    "onesignal-node": "^3.4.0"
+  }
+}

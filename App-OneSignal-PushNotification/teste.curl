@@ -1,0 +1,12 @@
+curl --request POST \
+     --url https://onesignal.com/api/v1/notifications \
+     --header 'Authorization: Basic SUA_API_KEY' \
+     --header 'accept: application/json' \
+     --header 'content-type: application/json' \
+     --data '
+{
+  "app_id": "SEU_APP_ID",
+   "contents": {"en": "Sua mensagem de notificação aqui"},
+    "included_segments": ["All"]
+}
+'
